@@ -1,0 +1,20 @@
+Exception has occurred.
+StateError (Bad state: field does not exist within the DocumentSnapshotPlatform)
+
+[Debug]
+
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Connecting to VM Service at ws://127.0.0.1:53382/rmKttDjzZq4=/ws
+I/FirebaseApp(19205): Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+D/FirebaseAuth(19205): Notifying id token listeners about user ( lzrHwqznoogJ3HpieGB03FlR5S62 ).
+W/DynamiteModule(19205): Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+I/DynamiteModule(19205): Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+W/ProviderInstaller(19205): Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+W/rski.pizza_waw(19205): ClassLoaderContext shared library size mismatch. Expected=3, found=4 (PCL[]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798122]#PCL[/system/framework/com.android.location.provider.jar*3633238673]} | PCL[]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798122]#PCL[/system/framework/com.android.location.provider.jar*3633238673]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3539530913]})
+D/nativeloader(19205): classloader namespace configured for unbundled product apk. library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+V/NativeCrypto(19205): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 294 native methods...
+W/rski.pizza_waw(19205): Accessing hidden method Ljava/security/spec/ECParameterSpec;->getCurveName()Ljava/lang/String; (unsupported, reflection, allowed)
+I/ProviderInstaller(19205): Installed default security provider GmsCore_OpenSSL
+W/rski.pizza_waw(19205): Accessing hidden field Ljava/net/Socket;->impl:Ljava/net/SocketImpl; (unsupported, reflection, allowed)
+W/rski.pizza_waw(19205): Accessing hidden method Ljava/security/spec/ECParameterSpec;->setCurveName(Ljava/lang/String;)V (unsupported, reflection, allowed)
